@@ -6,8 +6,7 @@ publish_to: none
 environment:
   sdk: '>=3.0.1 <4.0.0'
 
-dependencies:
-  types_for_perception: ^0.0.0-a1
+# dependencies:
 
 dev_dependencies:
   enspyr_lints: ^0.0.0-a1

@@ -1,11 +1,6 @@
-import 'package:types_for_perception/auth_types.dart';
-
 import 'enums/provider_enum.dart';
+import 'models/user_auth_state.dart';
 
-/// This interface is currently only used in atro_auth
-/// - this will change but for now we can design the API without worrying about
-///   what the changes will do to dependents
-/// TODO: Remove this comment when the initial version of the API is finalised
 abstract class FirebaseAuthService {
   // Functions to get user details if there is a signed in user
   Future<String>? getCurrentIdToken();
