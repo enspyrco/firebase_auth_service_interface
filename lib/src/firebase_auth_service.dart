@@ -1,4 +1,4 @@
-import 'package:astro_types/auth_types.dart';
+import 'package:types_for_perception/auth_types.dart';
 
 import 'enums/provider_enum.dart';
 

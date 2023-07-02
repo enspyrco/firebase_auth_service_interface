@@ -7,7 +7,7 @@ environment:
   sdk: '>=3.0.1 <4.0.0'
 
 dependencies:
-  astro_types: ^0.0.0-a1
+  types_for_perception: ^0.0.0-a1
 
 dev_dependencies:
   enspyr_lints: ^0.0.0-a1
