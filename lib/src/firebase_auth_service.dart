@@ -1,5 +1,4 @@
-import 'enums/provider_enum.dart';
-import 'models/user_auth_state.dart';
+import 'package:types_for_auth/types_for_auth.dart';
 
 abstract class FirebaseAuthService {
   // Functions to get user details if there is a signed in user
