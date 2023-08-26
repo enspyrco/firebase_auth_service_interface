@@ -2,7 +2,7 @@ import 'package:types_for_auth/types_for_auth.dart';
 
 abstract class FirebaseAuthService {
   // Functions to get user details if there is a signed in user
-  Future<String>? getCurrentIdToken();
+  Future<String?>? getCurrentIdToken();
   String? getCurrentUserId();
 
   Future<Set<ProviderEnum>> retrieveProvidersFor(String email);
