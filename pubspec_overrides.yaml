@@ -1,6 +1,6 @@
 dependency_overrides:
 # where are we? dart/interfaces/<here>
-  # types_for_perception:
-  #   path: ../../../flutter/utils/perception/types_for_perception
+  # abstractions:
+  #   path: ../../../flutter/utils/perception/abstractions
   # json_utils:
   #   path: ../../utils/json_utils
