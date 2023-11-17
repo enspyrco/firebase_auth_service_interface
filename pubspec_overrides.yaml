@@ -1,6 +1,6 @@
 dependency_overrides:
 # where are we? dart/interfaces/<here>
-  # abstractions:
-  #   path: ../../../flutter/utils/perception/abstractions
+  abstractions:
+    path: ../../../flutter/utils/perception/abstractions
   # json_utils:
   #   path: ../../utils/json_utils
