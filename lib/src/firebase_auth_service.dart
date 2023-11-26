@@ -27,8 +27,11 @@ abstract class FirebaseAuthService implements IdentitySubsystem {
       String email, String password);
 
   @override
-  Future<UserAuthState> signInWithApple(
+  Future<UserAuthState> signInWithAppleCredential(
       {required String idToken, required String rawNonce});
+
+  @override
+  Future<UserAuthState> signInToAppleThenFirebase();
 
   @override
   Future<UserAuthState> signInWithGoogle(
